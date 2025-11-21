@@ -19,10 +19,62 @@
         <p id="img-footer">Photo by <a href="https://unsplash.com/@theforestbirds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joel & Jasmin Førestbird</a> on <a href="https://unsplash.com/photos/landscape-photography-of-snowy-mountain-and-body-of-water-efuwb5eBDrI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
     </div>
 
-    <div id="message-container">
-        <p>This is not a real online service!  You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started.</p>
-        
-        <p>You <em>know</em> you to.</p>
+    <div id="login-container">
+        <div id="message-container">
+            <p>This is not a real online service!  You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started.</p>
+            
+            <p>You <em>know</em> you want to.</p>
+        </div>
+
+        <form action="#" method="post">
+            <fieldset id="form-group">
+                <h2>Let's do this!</h2>
+
+                <fieldset>
+                    <p>
+                        <label for="first_name">FIRST NAME </label>
+                        <input type="text" id="first_name" required>
+                    </p>
+
+                    <p>
+                        <label for="last_name">LAST NAME </label>
+                        <input type="text" id="last_name" required>
+                    </p>
+                
+                </fieldset>
+                
+                <fieldset>
+                    <p>
+                        <label for="mail">EMAIL </label>
+                        <input type="email" id="mail" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">PHONE NUMBER </label>
+                        <input type="tel" id="last_name" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+
+                    <p>
+                        <label for="pwd">PASSWORD </label>
+                        <input type="password" id="pws" required minlength="10">
+                    </p>
+
+                    <p>
+                        <label for="confirmpwd">CONFIRM PASSWORD </label>
+                        <input type="password" id="confirmpwd" required minlength="10">
+                    </p>
+                </fieldset>
+
+            </fieldset>
+
+            <div id="form-footer">
+                <button id="btn">Create Account</button>
+                <p>Already have an account <a href="#">Log in</a></p>
+            <div>
+        </form>
     </div>
     
 </body>
