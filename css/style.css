@@ -1,5 +1,72 @@
+:root {
+    --clr-dark: rgba(23, 23, 23, 0.505);
+    --clr-light: #fcfcfc;
+}
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(../fonts/Norse-Bold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+a {
+    color: var(--clr-light);
+}
+
+a:visited {
+    color: var(--clr-light);
+}
+
+#img-container {
+    background-image: url(../images/joel-jasmin-forestbird-efuwb5eBDrI-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    margin-top: 175px;
+    background-color: var(--clr-dark);
+    height: 130px;
+    font-family: "Norse-Bold", sans-serif;
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#logo img {
+    height: 100px;
+    object-fit: cover;
+}
+
+#logo p {
+    color: var(--clr-light);
+    text-align: center;
+}
+
+#img-footer {
+    margin-top: auto;
+    padding: 10px;
+    color: var(--clr-light);
+    font-size: .8em;
+    text-align: center;
+}
+
+#message-container {
+    width: 100%;
+}
+
